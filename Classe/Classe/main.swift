@@ -29,3 +29,22 @@ class Automovel {
         print("O carro está ligado")
     }
 }
+
+class Casa {
+    
+    var cor: String = "Amarelo"
+    var portas: Int = 4
+    var janelas: Int = 5
+    var banheiros: Int = 2
+    var piso: String = "Madeira"
+    
+    func abrirPorta() {
+        print("Abrindo a porta")
+    }
+    
+    func fecharPorta() {
+        print("Fechando a porta")
+    }
+    
+}
+
