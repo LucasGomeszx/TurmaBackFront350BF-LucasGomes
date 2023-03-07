@@ -64,3 +64,20 @@ class Gato {
     }
     
 }
+
+class Pessoa {
+    
+    var nome: String = "Lucas"
+    var cfp: String = "111.111.111.11"
+    var idade: Int = 23
+    var genero: String = "Masculino"
+    var aniverssario: String = "20/05/1998"
+    
+    func correr() {
+        print("Pessoa esta correndo")
+    }
+    
+    func estudar() {
+        print("Pessoa esta estudando")
+    }
+}
