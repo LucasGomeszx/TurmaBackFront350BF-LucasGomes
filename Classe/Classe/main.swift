@@ -47,4 +47,20 @@ class Casa {
     }
     
 }
-
+class Gato {
+    
+    var cor: String = "Preto"
+    var fome: Bool = false
+    var nome: String = "Nina"
+    var sexo: String = "Fêmea"
+    var corOlhos: String = "Azul"
+    
+    func comer() {
+        print("O gato esta comendo")
+    }
+    
+    func andar() {
+        print("O gato esta andando")
+    }
+    
+}
