@@ -20,6 +20,9 @@
                                 <rect key="frame" x="157.66666666666666" y="404.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yns-2J-38Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
